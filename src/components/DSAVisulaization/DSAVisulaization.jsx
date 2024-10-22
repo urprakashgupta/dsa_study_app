@@ -1,8 +1,6 @@
 import React from "react";
 import Sorting from "./Sorting";
-import TreeVisualizer from "./Tree"
-import ArrayVisualizer from "./Array";
-
+import LinearSearchVisualizer from "./LinerarSearch"
 const DSAVisualization = () => {
   return (
     <section className="container py-10">
@@ -16,16 +14,10 @@ const DSAVisualization = () => {
         <Sorting />
       </div>
 
-      {/* Tree Visualizations */}
+      {/* linear search Visualizations */}
       <div className="mb-12">
-        <h2 className="text-3xl font-semibold mb-5">Tree Data Structures</h2>
-        <TreeVisualizer />
-      </div>
-
-      {/* Array Visualizations */}
-      <div className="mb-12">
-        <h2 className="text-3xl font-semibold mb-5">Array Operations</h2>
-        <ArrayVisualizer />
+        <h2 className="text-3xl font-semibold mb-5">Linear Search Algorithms</h2>
+        <LinearSearchVisualizer />
       </div>
     </section>
   );
